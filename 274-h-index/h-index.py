@@ -6,6 +6,6 @@ class Solution:
             if cit <= nums:
                 return nums
             nums += 1
-            if nums >= cit and cit:
+            if nums >= cit:
                 return cit
         return nums
